@@ -1,3 +1,12 @@
+# Load Test With Locus on a quarkus app
+build native executable for docker 
+
+`quarkus build --native -Dquarkus.native.container-build=true -Dquarkus.native.container-runtime=docker
+`
+then run 
+
+`docker compose -f src/main/docker-compose/locust-compose.yml up  --scale worker=8
+`
 # code-with-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
