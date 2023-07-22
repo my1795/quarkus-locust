@@ -1,5 +1,5 @@
 # Load Test With Locus on a quarkus app
-build native executable for docker 
+build native executable for docker using quarkus cli
 
 `quarkus build --native -Dquarkus.native.container-build=true -Dquarkus.native.container-runtime=docker
 `
